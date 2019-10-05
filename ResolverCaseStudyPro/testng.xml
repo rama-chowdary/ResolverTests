@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="Test">
+		<parameter name="name" value="Rama"></parameter>
+		<parameter name="city" value="Hyderabad"></parameter>
+		<classes>
+			<class name="rcspro.tests.ModalTestOne" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="SecondTest">
+		<parameter name="inputval" value="Angular"></parameter>
+		<parameter name="inputvaltwo" value="ReactJs"></parameter>
+		<classes>
+			<class name="rcspro.tests.TestTwo" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="ThirdTest">
+		<parameter name="cityval" value="USA"></parameter>
+		<classes>
+			<class name="rcspro.tests.TestThree" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="FourthTest">
+		<classes>
+			<class name="rcspro.tests.TestFour" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="FifthTest">
+		<classes>
+			<class name="rcspro.tests.TestFive" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="SixthTest">
+		<classes>
+			<class name="rcspro.tests.ConstructorTestsix" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="city" value="Hyderabad"/>
+  <parameter name="name" value="Rama"/>
+  <test name="Test(failed)">
+    <parameter name="city" value="Hyderabad"/>
+    <parameter name="name" value="Rama"/>
+    <classes>
+      <class name="rcspro.tests.TestThree">
+        <methods>
+          <include name="gotourl"/>
+        </methods>
+      </class> <!-- rcspro.tests.TestThree -->
+      <class name="rcspro.tests.ModalTestOne">
+        <methods>
+          <include name="gotourl"/>
+          <include name="openModal" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- rcspro.tests.ModalTestOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

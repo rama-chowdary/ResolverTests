@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34056" started-at="2019-10-04T15:25:27Z" finished-at="2019-10-04T15:26:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9941" started-at="2019-10-04T15:25:27Z" finished-at="2019-10-04T15:25:37Z">
+      <class name="rcspro.tests.ModalTestOne">
+        <test-method status="PASS" signature="gotourl()[pri:0, instance:rcspro.tests.ModalTestOne@55f3ddb1]" name="gotourl" is-config="true" duration-ms="8982" started-at="2019-10-04T20:55:27Z" finished-at="2019-10-04T20:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotourl -->
+        <test-method status="PASS" signature="openModal(java.lang.String, java.lang.String)[pri:0, instance:rcspro.tests.ModalTestOne@55f3ddb1]" name="openModal" duration-ms="943" started-at="2019-10-04T20:55:36Z" finished-at="2019-10-04T20:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openModal -->
+      </class> <!-- rcspro.tests.ModalTestOne -->
+    </test> <!-- Test -->
+    <test name="SecondTest" duration-ms="5832" started-at="2019-10-04T15:25:37Z" finished-at="2019-10-04T15:25:43Z">
+      <class name="rcspro.tests.TestTwo">
+        <test-method status="PASS" signature="gotourl()[pri:0, instance:rcspro.tests.TestTwo@47c62251]" name="gotourl" is-config="true" duration-ms="5430" started-at="2019-10-04T20:55:37Z" finished-at="2019-10-04T20:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotourl -->
+        <test-method status="PASS" signature="Test2availoptions(java.lang.String, java.lang.String)[pri:0, instance:rcspro.tests.TestTwo@47c62251]" name="Test2availoptions" duration-ms="400" started-at="2019-10-04T20:55:42Z" finished-at="2019-10-04T20:55:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angular]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ReactJs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2availoptions -->
+      </class> <!-- rcspro.tests.TestTwo -->
+    </test> <!-- SecondTest -->
+    <test name="ThirdTest" duration-ms="8090" started-at="2019-10-04T15:25:43Z" finished-at="2019-10-04T15:25:51Z">
+      <class name="rcspro.tests.TestThree">
+        <test-method status="PASS" signature="gotourl()[pri:0, instance:rcspro.tests.TestThree@5e3a8624]" name="gotourl" is-config="true" duration-ms="7897" started-at="2019-10-04T20:55:43Z" finished-at="2019-10-04T20:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotourl -->
+        <test-method status="PASS" signature="SearchUSAMthd(java.lang.String)[pri:0, instance:rcspro.tests.TestThree@5e3a8624]" name="SearchUSAMthd" duration-ms="192" started-at="2019-10-04T20:55:51Z" finished-at="2019-10-04T20:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchUSAMthd -->
+      </class> <!-- rcspro.tests.TestThree -->
+    </test> <!-- ThirdTest -->
+    <test name="FourthTest" duration-ms="10013" started-at="2019-10-04T15:25:51Z" finished-at="2019-10-04T15:26:01Z">
+      <class name="rcspro.tests.TestFour">
+        <test-method status="PASS" signature="gotourl()[pri:0, instance:rcspro.tests.TestFour@6d4b1c02]" name="gotourl" is-config="true" duration-ms="9668" started-at="2019-10-04T20:55:51Z" finished-at="2019-10-04T20:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotourl -->
+        <test-method status="PASS" signature="testfourmthd()[pri:0, instance:rcspro.tests.TestFour@6d4b1c02]" name="testfourmthd" duration-ms="344" started-at="2019-10-04T20:56:01Z" finished-at="2019-10-04T20:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfourmthd -->
+      </class> <!-- rcspro.tests.TestFour -->
+    </test> <!-- FourthTest -->
+    <test name="FifthTest" duration-ms="7" started-at="2019-10-04T15:26:01Z" finished-at="2019-10-04T15:26:01Z">
+      <class name="rcspro.tests.TestFive">
+        <test-method status="PASS" signature="printnums()[pri:0, instance:rcspro.tests.TestFive@57baeedf]" name="printnums" duration-ms="5" started-at="2019-10-04T20:56:01Z" finished-at="2019-10-04T20:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printnums -->
+      </class> <!-- rcspro.tests.TestFive -->
+    </test> <!-- FifthTest -->
+    <test name="SixthTest" duration-ms="0" started-at="2019-10-04T15:26:01Z" finished-at="2019-10-04T15:26:01Z">
+    </test> <!-- SixthTest -->
+  </suite> <!-- Suite -->
+</testng-results>
